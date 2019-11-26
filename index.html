@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>ToDOM</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+
+    <link rel="stylesheet" href="style.css" type="text/css">
+  </head>
+  <body>
+    <div class="container-fluid">
+      <h1 class="display-4">Adult Life List</h1>
+        <section>
+          <label for="todo-input add-text">Add to your todo list!</label>
+          <input class="todo-input "type="text" name="todo-input">
+          <button type="button" class="btn btn-dark">Add!</button>
+
+          <!-- <button class="add-todo">ADD</button> -->
+        </section>
+        <section>
+          <label for="index-input index-text">Remove an index from your todo list! (Counting from zero because coding.)</label>
+          <!-- <input class="index-input "type="text" name="index-input"> -->
+          
+          <button class="remove-todo">REMOVE</button>
+        </section>
+      <ul class="todo-list list-group-item"></ul>
+    </div>
+    <!-- <script src=<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+      </script> -->
+    <script src="./style.css"></script>
+    <script src = "./adding.js"></script>
+    <script src = "./removing.js"></script>
+  </body>
+</html>
